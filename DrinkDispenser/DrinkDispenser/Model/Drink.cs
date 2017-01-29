@@ -1,20 +1,26 @@
-﻿namespace DrinkDispenser.Model
+﻿using ProtoBuf;
+
+namespace DrinkDispenser.Model
 {
+    [ProtoContract]
     public struct Drink
     {
         /// <summary>
         /// The amount of available bottles.
         /// </summary>
+        [ProtoMember(1)]
         public int Amount;
 
         /// <summary>
         /// The filling quantity in mililiters.
         /// </summary>
+        [ProtoMember(2)]
         public readonly int FillingQuantity;
 
         /// <summary>
         /// The name of the drink
         /// </summary>
+        [ProtoMember(3)]
         public readonly string Name;
 
         /// <summary>
