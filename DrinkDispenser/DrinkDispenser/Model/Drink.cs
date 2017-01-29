@@ -35,5 +35,10 @@ namespace DrinkDispenser.Model
             FillingQuantity = fillingQuantity;
             Amount = amount;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} {FillingQuantity}ml";
+        }
     }
 }

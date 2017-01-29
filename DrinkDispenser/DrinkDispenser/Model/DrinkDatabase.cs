@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Runtime.CompilerServices;
 using ProtoBuf;
 
 namespace DrinkDispenser.Model
@@ -32,5 +33,7 @@ namespace DrinkDispenser.Model
                 Serializer.Serialize(file, _drinks);
             }
         }
+
+        public Drink this[int index] => _drinks[index];
     }
 }

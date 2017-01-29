@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace DrinkDispenser
 {
-    public partial class Form1 : Form
+    public partial class DrinkDispenserForm : Form, IDrinkDispenserView
     {
-        public Form1()
+        public DrinkDispenserForm()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
