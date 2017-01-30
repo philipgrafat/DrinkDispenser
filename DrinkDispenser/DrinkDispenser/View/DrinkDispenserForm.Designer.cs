@@ -44,7 +44,7 @@
             this.controlButtonSeven = new System.Windows.Forms.Button();
             this.controlButtonEight = new System.Windows.Forms.Button();
             this.controlButtonNine = new System.Windows.Forms.Button();
-            this.controlAdminbutton = new System.Windows.Forms.Button();
+            this.controlAdminButton = new System.Windows.Forms.Button();
             this.controlBackground = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.controlBackground)).BeginInit();
@@ -85,6 +85,7 @@
             this.controlButtonA.TabIndex = 2;
             this.controlButtonA.Text = "A";
             this.controlButtonA.UseVisualStyleBackColor = false;
+            this.controlButtonA.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonB
             // 
@@ -97,6 +98,7 @@
             this.controlButtonB.TabIndex = 3;
             this.controlButtonB.Text = "B";
             this.controlButtonB.UseVisualStyleBackColor = false;
+            this.controlButtonB.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonC
             // 
@@ -109,6 +111,7 @@
             this.controlButtonC.TabIndex = 4;
             this.controlButtonC.Text = "C";
             this.controlButtonC.UseVisualStyleBackColor = false;
+            this.controlButtonC.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonD
             // 
@@ -121,6 +124,7 @@
             this.controlButtonD.TabIndex = 5;
             this.controlButtonD.Text = "D";
             this.controlButtonD.UseVisualStyleBackColor = false;
+            this.controlButtonD.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonE
             // 
@@ -133,6 +137,7 @@
             this.controlButtonE.TabIndex = 6;
             this.controlButtonE.Text = "E";
             this.controlButtonE.UseVisualStyleBackColor = false;
+            this.controlButtonE.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonOne
             // 
@@ -145,6 +150,7 @@
             this.controlButtonOne.TabIndex = 7;
             this.controlButtonOne.Text = "1";
             this.controlButtonOne.UseVisualStyleBackColor = false;
+            this.controlButtonOne.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonTwo
             // 
@@ -157,6 +163,7 @@
             this.controlButtonTwo.TabIndex = 8;
             this.controlButtonTwo.Text = "2";
             this.controlButtonTwo.UseVisualStyleBackColor = false;
+            this.controlButtonTwo.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonThree
             // 
@@ -169,6 +176,7 @@
             this.controlButtonThree.TabIndex = 9;
             this.controlButtonThree.Text = "3";
             this.controlButtonThree.UseVisualStyleBackColor = false;
+            this.controlButtonThree.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonFour
             // 
@@ -181,6 +189,7 @@
             this.controlButtonFour.TabIndex = 10;
             this.controlButtonFour.Text = "4";
             this.controlButtonFour.UseVisualStyleBackColor = false;
+            this.controlButtonFour.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonFive
             // 
@@ -193,6 +202,7 @@
             this.controlButtonFive.TabIndex = 11;
             this.controlButtonFive.Text = "5";
             this.controlButtonFive.UseVisualStyleBackColor = false;
+            this.controlButtonFive.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonSix
             // 
@@ -205,6 +215,7 @@
             this.controlButtonSix.TabIndex = 12;
             this.controlButtonSix.Text = "6";
             this.controlButtonSix.UseVisualStyleBackColor = false;
+            this.controlButtonSix.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonSeven
             // 
@@ -217,6 +228,7 @@
             this.controlButtonSeven.TabIndex = 13;
             this.controlButtonSeven.Text = "7";
             this.controlButtonSeven.UseVisualStyleBackColor = false;
+            this.controlButtonSeven.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonEight
             // 
@@ -229,6 +241,7 @@
             this.controlButtonEight.TabIndex = 14;
             this.controlButtonEight.Text = "8";
             this.controlButtonEight.UseVisualStyleBackColor = false;
+            this.controlButtonEight.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlButtonNine
             // 
@@ -241,18 +254,20 @@
             this.controlButtonNine.TabIndex = 15;
             this.controlButtonNine.Text = "9";
             this.controlButtonNine.UseVisualStyleBackColor = false;
+            this.controlButtonNine.Click += new System.EventHandler(this.controlButton_Click);
             // 
-            // controlAdminbutton
+            // controlAdminButton
             // 
-            this.controlAdminbutton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.controlAdminbutton.BackColor = System.Drawing.Color.White;
-            this.controlAdminbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlAdminbutton.Location = new System.Drawing.Point(1022, 565);
-            this.controlAdminbutton.Name = "controlAdminbutton";
-            this.controlAdminbutton.Size = new System.Drawing.Size(222, 141);
-            this.controlAdminbutton.TabIndex = 16;
-            this.controlAdminbutton.Text = "ADMIN";
-            this.controlAdminbutton.UseVisualStyleBackColor = false;
+            this.controlAdminButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.controlAdminButton.BackColor = System.Drawing.Color.White;
+            this.controlAdminButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.controlAdminButton.Location = new System.Drawing.Point(1022, 565);
+            this.controlAdminButton.Name = "controlAdminButton";
+            this.controlAdminButton.Size = new System.Drawing.Size(222, 141);
+            this.controlAdminButton.TabIndex = 16;
+            this.controlAdminButton.Text = "ADMIN";
+            this.controlAdminButton.UseVisualStyleBackColor = false;
+            this.controlAdminButton.Click += new System.EventHandler(this.controlButton_Click);
             // 
             // controlBackground
             // 
@@ -269,7 +284,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1374, 1129);
-            this.Controls.Add(this.controlAdminbutton);
+            this.Controls.Add(this.controlAdminButton);
             this.Controls.Add(this.controlButtonNine);
             this.Controls.Add(this.controlButtonEight);
             this.Controls.Add(this.controlButtonSeven);
@@ -315,7 +330,7 @@
         private System.Windows.Forms.Button controlButtonSeven;
         private System.Windows.Forms.Button controlButtonEight;
         private System.Windows.Forms.Button controlButtonNine;
-        private System.Windows.Forms.Button controlAdminbutton;
+        private System.Windows.Forms.Button controlAdminButton;
         private System.Windows.Forms.PictureBox controlBackground;
     }
 }
