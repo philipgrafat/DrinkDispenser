@@ -52,22 +52,23 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBox1.Image = global::DrinkDispenser.Properties.Resources.Dispenser;
-            this.pictureBox1.Location = new System.Drawing.Point(-17, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(819, 1243);
+            this.pictureBox1.Size = new System.Drawing.Size(819, 1123);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // controlMessage
             // 
+            this.controlMessage.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlMessage.AutoSize = true;
             this.controlMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(72)))), ((int)(((byte)(55)))));
             this.controlMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.controlMessage.ForeColor = System.Drawing.Color.White;
-            this.controlMessage.Location = new System.Drawing.Point(1010, 243);
+            this.controlMessage.Location = new System.Drawing.Point(867, 240);
             this.controlMessage.Name = "controlMessage";
             this.controlMessage.Size = new System.Drawing.Size(452, 55);
             this.controlMessage.TabIndex = 1;
@@ -75,9 +76,10 @@
             // 
             // controlButtonA
             // 
+            this.controlButtonA.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonA.BackColor = System.Drawing.Color.White;
             this.controlButtonA.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonA.Location = new System.Drawing.Point(1084, 326);
+            this.controlButtonA.Location = new System.Drawing.Point(941, 323);
             this.controlButtonA.Name = "controlButtonA";
             this.controlButtonA.Size = new System.Drawing.Size(60, 60);
             this.controlButtonA.TabIndex = 2;
@@ -86,9 +88,10 @@
             // 
             // controlButtonB
             // 
+            this.controlButtonB.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonB.BackColor = System.Drawing.Color.White;
             this.controlButtonB.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonB.Location = new System.Drawing.Point(1084, 407);
+            this.controlButtonB.Location = new System.Drawing.Point(941, 404);
             this.controlButtonB.Name = "controlButtonB";
             this.controlButtonB.Size = new System.Drawing.Size(60, 60);
             this.controlButtonB.TabIndex = 3;
@@ -97,9 +100,10 @@
             // 
             // controlButtonC
             // 
+            this.controlButtonC.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonC.BackColor = System.Drawing.Color.White;
             this.controlButtonC.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonC.Location = new System.Drawing.Point(1084, 488);
+            this.controlButtonC.Location = new System.Drawing.Point(941, 485);
             this.controlButtonC.Name = "controlButtonC";
             this.controlButtonC.Size = new System.Drawing.Size(60, 60);
             this.controlButtonC.TabIndex = 4;
@@ -108,9 +112,10 @@
             // 
             // controlButtonD
             // 
+            this.controlButtonD.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonD.BackColor = System.Drawing.Color.White;
             this.controlButtonD.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonD.Location = new System.Drawing.Point(1084, 568);
+            this.controlButtonD.Location = new System.Drawing.Point(941, 565);
             this.controlButtonD.Name = "controlButtonD";
             this.controlButtonD.Size = new System.Drawing.Size(60, 60);
             this.controlButtonD.TabIndex = 5;
@@ -119,9 +124,10 @@
             // 
             // controlButtonE
             // 
+            this.controlButtonE.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonE.BackColor = System.Drawing.Color.White;
             this.controlButtonE.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonE.Location = new System.Drawing.Point(1084, 649);
+            this.controlButtonE.Location = new System.Drawing.Point(941, 646);
             this.controlButtonE.Name = "controlButtonE";
             this.controlButtonE.Size = new System.Drawing.Size(60, 60);
             this.controlButtonE.TabIndex = 6;
@@ -130,9 +136,10 @@
             // 
             // controlButtonOne
             // 
+            this.controlButtonOne.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonOne.BackColor = System.Drawing.Color.White;
             this.controlButtonOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonOne.Location = new System.Drawing.Point(1165, 326);
+            this.controlButtonOne.Location = new System.Drawing.Point(1022, 323);
             this.controlButtonOne.Name = "controlButtonOne";
             this.controlButtonOne.Size = new System.Drawing.Size(60, 60);
             this.controlButtonOne.TabIndex = 7;
@@ -141,9 +148,10 @@
             // 
             // controlButtonTwo
             // 
+            this.controlButtonTwo.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonTwo.BackColor = System.Drawing.Color.White;
             this.controlButtonTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonTwo.Location = new System.Drawing.Point(1246, 326);
+            this.controlButtonTwo.Location = new System.Drawing.Point(1103, 323);
             this.controlButtonTwo.Name = "controlButtonTwo";
             this.controlButtonTwo.Size = new System.Drawing.Size(60, 60);
             this.controlButtonTwo.TabIndex = 8;
@@ -152,9 +160,10 @@
             // 
             // controlButtonThree
             // 
+            this.controlButtonThree.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonThree.BackColor = System.Drawing.Color.White;
             this.controlButtonThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonThree.Location = new System.Drawing.Point(1327, 326);
+            this.controlButtonThree.Location = new System.Drawing.Point(1184, 323);
             this.controlButtonThree.Name = "controlButtonThree";
             this.controlButtonThree.Size = new System.Drawing.Size(60, 60);
             this.controlButtonThree.TabIndex = 9;
@@ -163,9 +172,10 @@
             // 
             // controlButtonFour
             // 
+            this.controlButtonFour.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonFour.BackColor = System.Drawing.Color.White;
             this.controlButtonFour.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonFour.Location = new System.Drawing.Point(1165, 407);
+            this.controlButtonFour.Location = new System.Drawing.Point(1022, 404);
             this.controlButtonFour.Name = "controlButtonFour";
             this.controlButtonFour.Size = new System.Drawing.Size(60, 60);
             this.controlButtonFour.TabIndex = 10;
@@ -174,9 +184,10 @@
             // 
             // controlButtonFive
             // 
+            this.controlButtonFive.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonFive.BackColor = System.Drawing.Color.White;
             this.controlButtonFive.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonFive.Location = new System.Drawing.Point(1246, 407);
+            this.controlButtonFive.Location = new System.Drawing.Point(1103, 404);
             this.controlButtonFive.Name = "controlButtonFive";
             this.controlButtonFive.Size = new System.Drawing.Size(60, 60);
             this.controlButtonFive.TabIndex = 11;
@@ -185,9 +196,10 @@
             // 
             // controlButtonSix
             // 
+            this.controlButtonSix.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonSix.BackColor = System.Drawing.Color.White;
             this.controlButtonSix.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonSix.Location = new System.Drawing.Point(1327, 407);
+            this.controlButtonSix.Location = new System.Drawing.Point(1184, 404);
             this.controlButtonSix.Name = "controlButtonSix";
             this.controlButtonSix.Size = new System.Drawing.Size(60, 60);
             this.controlButtonSix.TabIndex = 12;
@@ -196,9 +208,10 @@
             // 
             // controlButtonSeven
             // 
+            this.controlButtonSeven.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonSeven.BackColor = System.Drawing.Color.White;
             this.controlButtonSeven.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonSeven.Location = new System.Drawing.Point(1165, 488);
+            this.controlButtonSeven.Location = new System.Drawing.Point(1022, 485);
             this.controlButtonSeven.Name = "controlButtonSeven";
             this.controlButtonSeven.Size = new System.Drawing.Size(60, 60);
             this.controlButtonSeven.TabIndex = 13;
@@ -207,9 +220,10 @@
             // 
             // controlButtonEight
             // 
+            this.controlButtonEight.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonEight.BackColor = System.Drawing.Color.White;
             this.controlButtonEight.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonEight.Location = new System.Drawing.Point(1246, 488);
+            this.controlButtonEight.Location = new System.Drawing.Point(1103, 485);
             this.controlButtonEight.Name = "controlButtonEight";
             this.controlButtonEight.Size = new System.Drawing.Size(60, 60);
             this.controlButtonEight.TabIndex = 14;
@@ -218,9 +232,10 @@
             // 
             // controlButtonNine
             // 
+            this.controlButtonNine.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlButtonNine.BackColor = System.Drawing.Color.White;
             this.controlButtonNine.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlButtonNine.Location = new System.Drawing.Point(1327, 488);
+            this.controlButtonNine.Location = new System.Drawing.Point(1184, 485);
             this.controlButtonNine.Name = "controlButtonNine";
             this.controlButtonNine.Size = new System.Drawing.Size(60, 60);
             this.controlButtonNine.TabIndex = 15;
@@ -229,9 +244,10 @@
             // 
             // controlAdminbutton
             // 
+            this.controlAdminbutton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlAdminbutton.BackColor = System.Drawing.Color.White;
             this.controlAdminbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.controlAdminbutton.Location = new System.Drawing.Point(1165, 568);
+            this.controlAdminbutton.Location = new System.Drawing.Point(1022, 565);
             this.controlAdminbutton.Name = "controlAdminbutton";
             this.controlAdminbutton.Size = new System.Drawing.Size(222, 141);
             this.controlAdminbutton.TabIndex = 16;
@@ -240,8 +256,9 @@
             // 
             // controlBackground
             // 
+            this.controlBackground.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.controlBackground.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(30)))), ((int)(((byte)(56)))));
-            this.controlBackground.Location = new System.Drawing.Point(991, 220);
+            this.controlBackground.Location = new System.Drawing.Point(848, 217);
             this.controlBackground.Name = "controlBackground";
             this.controlBackground.Size = new System.Drawing.Size(491, 525);
             this.controlBackground.TabIndex = 17;
@@ -251,7 +268,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1666, 1249);
+            this.ClientSize = new System.Drawing.Size(1374, 1129);
             this.Controls.Add(this.controlAdminbutton);
             this.Controls.Add(this.controlButtonNine);
             this.Controls.Add(this.controlButtonEight);
@@ -270,6 +287,7 @@
             this.Controls.Add(this.controlMessage);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.controlBackground);
+            this.MinimumSize = new System.Drawing.Size(1400, 1200);
             this.Name = "DrinkDispenserForm";
             this.Text = "DrinkDispenser by Philip Graf";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
