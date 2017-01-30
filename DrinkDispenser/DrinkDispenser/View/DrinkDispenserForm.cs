@@ -12,6 +12,10 @@ namespace DrinkDispenser
 {
     public partial class DrinkDispenserForm : Form, IDrinkDispenserView
     {
+        public delegate void ButtonClick(string name);
+
+        public event ButtonClick OnButtonClick;
+
         public DrinkDispenserForm()
         {
             InitializeComponent();
@@ -30,29 +34,7 @@ namespace DrinkDispenser
                 throw new ArgumentException("This function can only be called by a button!");
             }
 
-            switch (button.Name)
-            {
-                case "controlButtonA":
-                case "controlButtonB":
-                case "controlButtonC":
-                case "controlButtonD":
-                case "controlButtonE":
-                    break;
-                case "controlButtonOne":
-                case "controlButtonTwo":
-                case "controlButtonThree":
-                case "controlButtonFour":
-                case "controlButtonFive":
-                case "controlButtonSix":
-                case "controlButtonSeven":
-                case "controlButtonEight":
-                case "controlButtonNine":
-                    break;
-                case "controlAdminButton":
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(button.Name, "It is not declared how this button should be handled!");
-            }
+            OnButtonClick?.Invoke(button.Name);
         }
     }
 }

@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\DrinkDispenserModel.cs" />
+    <Compile Include="Presenter\DrinkDispenserPresenter.cs" />
+    <Compile Include="View\ControlButton.cs" />
     <Compile Include="View\DrinkDispenserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,9 +91,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Presenter\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\Dispenser.png" />
   </ItemGroup>

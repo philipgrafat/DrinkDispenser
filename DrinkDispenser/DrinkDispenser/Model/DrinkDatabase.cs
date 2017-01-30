@@ -5,24 +5,26 @@ using ProtoBuf;
 
 namespace DrinkDispenser.Model
 {
-    public class DrinkDatabase
+    public sealed class DrinkDatabase
     {
-        private List<Drink> _drinks;
+        private Dictionary<string, Drink> _drinks;
         private readonly string _serializationFile = Properties.Settings.Default.DatabaseFile;
 
-        public DrinkDatabase()
+        public static readonly DrinkDatabase Instance = new DrinkDatabase(); // Singleton
+
+        private DrinkDatabase()
         {
             if (File.Exists(_serializationFile))
             {
                 // Get List of drinks from the file
                 using (var file = File.OpenRead(_serializationFile))
                 {
-                    _drinks = Serializer.Deserialize<List<Drink>>(file);
+                    _drinks = Serializer.Deserialize<Dictionary<string, Drink>>(file);
                 }
             }
             else
             {
-                _drinks = new List<Drink>();
+                _drinks = new Dictionary<string, Drink>();
             }
         }
 
@@ -34,6 +36,6 @@ namespace DrinkDispenser.Model
             }
         }
 
-        public Drink this[int index] => _drinks[index];
+        public Drink this[string name] => _drinks[name];
     }
 }
